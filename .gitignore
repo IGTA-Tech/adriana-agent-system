@@ -1,0 +1,6 @@
+node_modules/
+*.log
+temp_auto_push.bat
+.DS_Store
+config.bat
+.gitignore
