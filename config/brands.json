@@ -1,0 +1,76 @@
+{
+  "brands": [
+    {
+      "id": "SSV",
+      "name": "Sherrod Sports Visas",
+      "phone": "+13108791273",
+      "agentId": "agent_7da721b94b86ba716827acffe7",
+      "llmId": "llm_ad6c7759ae01a92b1f4d05059c97",
+      "escalationEmail": "sherrod@sherrodsportsvisas.com",
+      "escalationPhone": "+15617408303",
+      "sheetTab": "SSV",
+      "intakeForm": "sherrodsportsvisas.report"
+    },
+    {
+      "id": "Aventus",
+      "name": "Aventus Visa Agents",
+      "phone": "+12088991247",
+      "agentId": "agent_bfe16e1b8cf6c636c7e19adf28",
+      "llmId": "llm_a781863748d3db7a65856dab1ba6",
+      "escalationEmail": "bran@aventusvisaagents.online",
+      "sheetTab": "Aventus Leads"
+    },
+    {
+      "id": "O1dMatch",
+      "name": "O1dMatch",
+      "phone": "+19803502728",
+      "agentId": "agent_906648d9ec452da965adcef5b4",
+      "llmId": "llm_52363e06e376d4bb881332c3d32a",
+      "escalationEmail": "info@o1dmatch.com",
+      "sheetTab": "O1dMatch",
+      "intakeForm": "o1dmatch.com"
+    },
+    {
+      "id": "IGTA",
+      "name": "Innovative Global Talent Agency",
+      "phone": "+16466648181",
+      "agentId": "agent_e36c715ef37150e1922224f1b8",
+      "llmId": "llm_7a79585d0caac1da860ce480e18d",
+      "escalationEmail": "info@innovativeglobaltalent.com",
+      "sheetTab": "IGTA Lead Sheet",
+      "intakeForm": "oandpvisas.community"
+    },
+    {
+      "id": "DCFederal",
+      "name": "DC Federal Litigation PLLC",
+      "phone": "+19803482626",
+      "agentId": "agent_aa3a89807af38b76ee127c68d3",
+      "llmId": "llm_8149efa553fc1cb99c9330f7c449",
+      "escalationEmail": "info@dcfederallitigation.com",
+      "sheetTab": "DC Federal"
+    },
+    {
+      "id": "Sevyn",
+      "name": "Sevyn (Multi-Brand)",
+      "phone": "+19803032854",
+      "agentId": "agent_1ecfdc7b6f9b4726373438ace9",
+      "llmId": "llm_9c4f492c5e96a714aec0feab1d5d",
+      "escalationEmail": "sherrod@sherrodsportsvisas.com",
+      "escalationPhone": "+15617408303",
+      "isMultiBrand": true
+    }
+  ],
+  "sheets": {
+    "masterLeadSheet": "10yzVfq3aH89c2UUMJrI5PCrXv_vK1NIBm3jM2IlbIu4",
+    "casesAssigned": "1Ma1_6kERm9CpDnyb_F1N_IvaEYlitdt-p5q1Oop5pWg",
+    "callLog": "created_by_system"
+  },
+  "supabase": {
+    "url": "https://wwxftuxdppoqgqdfaexl.supabase.co",
+    "tables": ["calls", "leads", "sms_messages", "stats"]
+  },
+  "retell": {
+    "webhookUrl": "https://sevyn-sms-agent-production.up.railway.app/retell/webhook",
+    "apiBaseUrl": "https://api.retellai.com"
+  }
+}
